@@ -67,7 +67,7 @@ async function lodm(){
     if (await fet("guser", "ver") == "1"){
         ver = "";
     } else {
-    
+    cretn();
     }
     
     for (let i of a){
@@ -82,7 +82,6 @@ async function lodm(){
     i.innerText = await fet("guser", "email");
     }
     
-    cretn();
 }
 
 
