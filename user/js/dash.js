@@ -62,7 +62,6 @@ function back() {
 
 
 async function lodm(){
-    
     var a = document.querySelectorAll(".imae");
     var ver = "";
     if (await fet("guser", "ver") == "1"){
