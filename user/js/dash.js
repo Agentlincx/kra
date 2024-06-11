@@ -67,7 +67,9 @@ async function lodm(){
     if (await fet("guser", "ver") == "1"){
         ver = "";
     } else {
-        cretn();
+        function(){
+            cretn();
+        }
     }
     
     for (let i of a){
