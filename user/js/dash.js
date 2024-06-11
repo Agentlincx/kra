@@ -64,10 +64,10 @@ function back() {
 async function lodm(){
     var a = document.querySelectorAll(".imae");
     var ver = "";
-    if (await fet("guser", "ver") == 1){
+    if (await fet("guser", "ver") == "1"){
         ver = "";
     } else {
-    cretn();
+    alert("jd");
     }
     
     for (let i of a){
